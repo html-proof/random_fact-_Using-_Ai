@@ -4,7 +4,7 @@ import randfacts
 
 engine =pyttsx3.init()
 try:
-    for i in range(10):
+    for i in range(1000):
         x = randfacts.get_fact(True)
         print(x)
         engine.say(x)
